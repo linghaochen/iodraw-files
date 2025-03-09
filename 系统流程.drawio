@@ -1,9 +1,203 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="gAWGyX-Ecbe5TGrCjQuv">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-35" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="205" y="410" width="57" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-36" value="用户登录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="171" y="499" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-37" value="上传原始视频" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="603" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-38" value="数据存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="68" y="707" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-39" value="创建动作识别任务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="242" y="707" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-40" value="配置任务参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="258" y="811" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-41" value="运行任务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="274" y="915" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-42" value="记录任务日志" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="242" y="1051" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-43" value="任务调度" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="448" y="1019" width="118" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-44" value="目标检测模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="1210" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-45" value="人体姿态估计模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="1210" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-46" value="人体动作识别模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="574" y="1210" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-47" value="输出人体目标坐标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1354" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-48" value="输出人体骨架数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="1354" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-49" value="输出动作分类结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="574" y="1354" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-50" value="生成可视化视频" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1458" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-51" value="识别结果存储与展示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1562" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-52" value="在线查看识别结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1666" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-53" value="导出下载识别结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="1666" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-54" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1770" width="57" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-35" target="OGO4Xm-k0HK6e_LqNjc6-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-36" target="OGO4Xm-k0HK6e_LqNjc6-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-37" target="OGO4Xm-k0HK6e_LqNjc6-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="682" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-37" target="OGO4Xm-k0HK6e_LqNjc6-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="682" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-39" target="OGO4Xm-k0HK6e_LqNjc6-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-40" target="OGO4Xm-k0HK6e_LqNjc6-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.43;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-41" target="OGO4Xm-k0HK6e_LqNjc6-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-41" target="OGO4Xm-k0HK6e_LqNjc6-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="507" y="994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-63" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-43" target="OGO4Xm-k0HK6e_LqNjc6-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="1173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-64" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-43" target="OGO4Xm-k0HK6e_LqNjc6-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-65" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-43" target="OGO4Xm-k0HK6e_LqNjc6-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="1173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-66" value="输入原始视频" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-44" target="OGO4Xm-k0HK6e_LqNjc6-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-67" value="输入原始视频&#xa;输入人体目标坐标" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-45" target="OGO4Xm-k0HK6e_LqNjc6-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-68" value="输入人体骨架数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-46" target="OGO4Xm-k0HK6e_LqNjc6-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.27;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-47" target="OGO4Xm-k0HK6e_LqNjc6-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="1433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.37;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-48" target="OGO4Xm-k0HK6e_LqNjc6-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-71" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.08;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-49" target="OGO4Xm-k0HK6e_LqNjc6-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="1433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-50" target="OGO4Xm-k0HK6e_LqNjc6-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-51" target="OGO4Xm-k0HK6e_LqNjc6-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-51" target="OGO4Xm-k0HK6e_LqNjc6-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.36;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-52" target="OGO4Xm-k0HK6e_LqNjc6-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233" y="1745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGO4Xm-k0HK6e_LqNjc6-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="OGO4Xm-k0HK6e_LqNjc6-53" target="OGO4Xm-k0HK6e_LqNjc6-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
